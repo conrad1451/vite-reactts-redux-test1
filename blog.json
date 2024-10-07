@@ -1,0 +1,14 @@
+[
+    {
+     "id": 1,
+     "title": "Building a Todo App with Vue",
+     "cover": "./imgs/building-todo-app-vue-img.png",
+     "author":"John Doe"
+    },
+    {
+     "id": 2,
+     "title": "Getting started with TypeScript",
+     "cover": "./imgs/getting-started-with-typescript-img.png",
+     "author":"Claman Joe"
+    }
+]
