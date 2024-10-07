@@ -4,7 +4,20 @@ import App from './App.tsx'
 import './index.css'
 
 import store from './redux/store';
-import { Provider } from 'react-redux';
+
+// Cannot import type declaration files. Consider importing 'redux' instead of '@types/redux'.ts(6137)
+// import { Provider } from "@types/redux";
+
+// Cannot find module '/redux' or its corresponding type declarations.ts(2307)
+import { Provider } from "/redux";
+
+
+// Cannot find module 'react-redux' or its corresponding type declarations.ts(2307)
+// import { Provider } from 'react-redux';
+
+// Cannot find module 'react-redux' or its corresponding type declarations.ts(2307)
+// import  Provider  from 'react-redux';
+
 // Cannot find module './redux' or its corresponding type declarations.ts(2307)
 // import { Provider } from './redux';
 
